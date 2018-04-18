@@ -1,0 +1,39 @@
+$indigo: #3d348b;
+$lighter-grey: #E0E2DB;
+$yellow: #E6AF2E;
+$darker-grey: #BEB7A4;
+$maroon: #800000;
+
+$custom-border: 3px dotted $yellow;
+
+h1 {
+  color: $indigo;
+  background-color: $lighter-grey;
+}
+
+h2 {
+  color: $maroon;
+}
+
+p {
+  border: $custom-border;
+}
+
+.movie-index {
+  h1 {
+    color: $darker-grey;
+  }
+
+  p {
+    font: {
+      family: papyrus;
+    }
+  }
+
+  .movie-show-link {
+    text: {
+      align: center;
+      decoration: line-through;
+    }
+  }
+}
